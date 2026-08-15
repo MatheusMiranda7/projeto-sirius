@@ -1,45 +1,44 @@
 # Project Sirius
 
-Versão: 1.0
+Versão: 2.0
+
 Status: Em Desenvolvimento
 
 ---
 
 # Visão
 
-Project Sirius é um e-commerce premium de utensílios para mesa posta, porcelanas, cristais, talheres e artigos para receber.
+Project Sirius é uma plataforma SaaS premium para empresas de locação de itens para eventos.
 
-Mais do que vender produtos, o objetivo é criar uma experiência digital cinematográfica, onde cada interação desperta curiosidade, elegância e desejo.
+Mais do que disponibilizar um catálogo de produtos, o objetivo é criar uma experiência digital cinematográfica onde o cliente constrói visualmente sua festa, explora composições inteligentes e solicita um orçamento de forma natural.
 
-O usuário não deve sentir que entrou em uma loja virtual.
+O usuário não deve sentir que entrou em um sistema de locação.
 
-Ele deve sentir que entrou em uma apresentação cuidadosamente dirigida.
+Ele deve sentir que entrou em uma experiência cuidadosamente dirigida.
 
 ---
 
 # Nossa Missão
 
-Transformar a compra de utensílios para mesa em uma experiência memorável.
+Transformar o processo de planejamento de uma festa em uma experiência memorável.
 
 Cada animação, cada movimento e cada detalhe devem transmitir sofisticação, precisão e qualidade.
+
+O Sirius deve reduzir o esforço do cliente para imaginar sua mesa pronta, tornando a escolha dos itens simples, intuitiva e emocional.
 
 ---
 
 # Nossa Filosofia
 
-Nós não vendemos pratos.
+Nós não alugamos pratos.
 
-Nós não vendemos taças.
+Nós não alugamos taças.
 
-Nós vendemos momentos.
+Nós não alugamos talheres.
 
-Vendemos encontros.
+Nós ajudamos pessoas a construir momentos.
 
-Vendemos celebrações.
-
-Vendemos memórias.
-
-Os produtos são apenas o meio.
+Os produtos são apenas os elementos.
 
 A experiência é o verdadeiro produto.
 
@@ -47,11 +46,11 @@ A experiência é o verdadeiro produto.
 
 # Objetivo Principal
 
-Criar o e-commerce mais bonito e imersivo do segmento de mesa posta.
+Criar a plataforma de locação de eventos mais bonita e imersiva do mercado.
 
-Quando alguém acessar o site deverá sentir vontade de continuar navegando mesmo sem intenção imediata de comprar.
+O usuário deve conseguir visualizar sua composição completa antes mesmo de solicitar um orçamento.
 
-O tempo de permanência na página deve ser consequência da qualidade da experiência.
+A experiência deve ser tão envolvente que o orçamento seja uma consequência natural da navegação.
 
 ---
 
@@ -65,31 +64,31 @@ O tempo de permanência na página deve ser consequência da qualidade da experi
 
 • Exclusividade
 
-• Desejo
-
 • Inspiração
 
-• Tranquilidade
-
 • Confiança
+
+• Segurança
+
+• Tranquilidade
 
 ---
 
 # O que NÃO queremos
 
-Jamais parecer uma loja comum.
+Jamais parecer um catálogo comum.
 
-Jamais utilizar banners promocionais piscando.
+Jamais parecer um ERP.
+
+Jamais parecer um e-commerce tradicional.
+
+Jamais utilizar banners promocionais.
 
 Jamais sobrecarregar a interface.
 
-Jamais utilizar animações exageradas.
+Jamais utilizar animações sem propósito.
 
-Jamais utilizar cores agressivas.
-
-Jamais competir pela atenção do usuário.
-
-Toda interação deve parecer natural.
+Toda interação deve existir para aproximar o usuário da experiência.
 
 ---
 
@@ -107,7 +106,7 @@ Minimalista.
 
 Inteligente.
 
-Atenciosa.
+Confiável.
 
 Premium.
 
@@ -121,11 +120,11 @@ Frases curtas.
 
 Muito espaço em branco.
 
-Cada frase deve parecer cuidadosamente escolhida.
-
-Nunca utilizar textos longos.
-
 Nunca utilizar linguagem comercial agressiva.
+
+Nunca utilizar excesso de textos.
+
+Cada frase deve parecer cuidadosamente escolhida.
 
 ---
 
@@ -133,7 +132,7 @@ Nunca utilizar linguagem comercial agressiva.
 
 Minimalismo contemporâneo.
 
-Inspiração em arquitetura.
+Arquitetura.
 
 Museus.
 
@@ -143,9 +142,9 @@ Design industrial.
 
 Fotografia de produto.
 
-Materiais naturais.
-
 Iluminação cinematográfica.
+
+Materiais naturais.
 
 ---
 
@@ -153,21 +152,19 @@ Iluminação cinematográfica.
 
 Toda animação deve possuir propósito.
 
-Nada deve se mover apenas para chamar atenção.
-
 Cada objeto possui peso.
 
 Cada objeto possui inércia.
 
-Cada objeto transmite materialidade.
+Cada transição deve parecer física.
+
+Nada se move apenas para chamar atenção.
 
 ---
 
 # Som
 
 O som faz parte da experiência.
-
-Cliques discretos.
 
 Cerâmica.
 
@@ -179,34 +176,50 @@ Linho.
 
 Respiração do ambiente.
 
-Silêncio é um elemento de design.
+Silêncio também comunica.
 
 ---
 
 # Navegação
 
-A navegação acontece através do scroll.
+A navegação acontece através da experiência.
 
-O scroll é o roteiro.
+O scroll é apenas um dos mecanismos.
 
-Cada seção representa um capítulo.
+O usuário participa da construção da composição.
 
-O visitante controla o ritmo da apresentação.
+Cada etapa representa um novo capítulo da história.
 
 ---
 
 # Objetivo Final
 
-Ao finalizar a experiência o visitante deve pensar:
+Ao terminar a experiência o visitante deve pensar:
 
-"Eu nunca vi uma loja assim."
+"Eu nunca imaginei que escolher uma mesa para um evento pudesse ser assim."
 
-Somente depois disso ele deve desejar comprar.
+Somente depois disso ele solicita um orçamento.
+
+---
+
+# Princípios do Produto
+
+• A experiência vem antes da interface.
+
+• O 3D é parte da navegação.
+
+• O catálogo existe para alimentar a experiência.
+
+• O Recommendation Engine orienta as escolhas.
+
+• A disponibilidade do estoque participa da experiência.
+
+• O WhatsApp é o fechamento comercial da V1.
 
 ---
 
 # Frase que guia todo o projeto
 
-Não estamos construindo um e-commerce.
+Não estamos construindo um sistema de locação.
 
 Estamos dirigindo uma experiência.

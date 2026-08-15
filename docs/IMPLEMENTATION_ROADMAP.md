@@ -1,385 +1,184 @@
 # IMPLEMENTATION ROADMAP
 
-Project Sirius
+Projeto: Sirius
 
-Versão 1.0
-
----
-
-Objetivo
-
-Dividir todo o desenvolvimento em pequenas entregas independentes.
-
-Cada etapa deve gerar valor.
-
-Cada etapa deve ser validada antes da próxima.
+Versão: 2.0
 
 ---
 
-FASE 01
+# Objetivo
+
+Este roadmap define a ordem oficial de desenvolvimento.
+
+Nenhuma etapa deverá ser iniciada antes da conclusão da anterior, salvo quando houver dependências independentes.
+
+---
+
+# FASE 01
 
 Foundation
 
-Objetivo
+Objetivo:
 
-Criar a estrutura do projeto.
+Construir a base técnica.
 
-Entregáveis
+Entregas:
 
-- Next.js
+* Next.js
+* TypeScript
+* Tailwind
+* Motion
+* React Three Fiber
+* Three.js
+* Supabase
+* Estrutura de pastas
+* Design Tokens
 
-- TypeScript
+Status:
 
-- Tailwind
-
-- shadcn/ui
-
-- ESLint
-
-- Prettier
-
-- Husky
-
-- GitHub
-
-Resultado esperado
-
-Projeto compilando.
-
-Deploy automático funcionando.
+Em andamento
 
 ---
 
-FASE 02
+# FASE 02
 
-Design System
+Business Foundation
 
-Objetivo
+Objetivo:
 
-Criar todos os componentes reutilizáveis.
+Criar o domínio do produto.
 
-Entregáveis
+Entregas:
 
-Button
+* banco
+* entidades
+* estoque
+* disponibilidade
+* reservas
+* recommendation engine
 
-Card
+Resultado esperado:
 
-Typography
-
-Layout
-
-Container
-
-Section
-
-Header
-
-Footer
-
-Spacing
-
-Grid
-
-Resultado
-
-Biblioteca visual pronta.
+Todas as regras de negócio funcionando.
 
 ---
 
-FASE 03
+# FASE 03
 
-Motor de Scroll
+Experience Foundation
 
-Objetivo
+Objetivo:
 
-Construir o coração da experiência.
+Construir a experiência 3D.
 
-Entregáveis
+Entregas:
 
-Scroll suave
+* câmera
+* iluminação
+* ambiente
+* mesa
+* prato
+* talheres
+* taça
+* animações
+* transições
 
-Timeline
+Resultado esperado:
 
-Parallax
-
-Controle de velocidade
-
-Transições
-
-Integração GSAP
-
-Resultado
-
-Scroll cinematográfico.
+Primeira cena cinematográfica.
 
 ---
 
-FASE 04
+# FASE 04
 
-Engine 3D
+Composition
 
-Objetivo
+Objetivo:
 
-Preparar renderização.
+Permitir que o usuário monte sua mesa.
 
-Entregáveis
+Entregas:
 
-React Three Fiber
+* composição
+* atualização em tempo real
+* recommendation engine integrado
+* disponibilidade integrada
 
-Iluminação
+Resultado esperado:
 
-HDRI
-
-Camera Controls
-
-Partículas
-
-Resultado
-
-Ambiente 3D funcionando.
+Mesa responde imediatamente às escolhas.
 
 ---
 
-FASE 05
+# FASE 05
 
-Cena 01
+Quote
 
-Primeiro contato.
+Objetivo:
 
-Tela preta.
+Transformar composição em orçamento.
 
-Luz.
+Entregas:
 
-Prato.
+* Minha Composição
+* resumo
+* WhatsApp
+* geração automática da mensagem
 
-Texto.
+Resultado esperado:
 
-Som.
-
-Entrega
-
-Cena totalmente funcional.
-
----
-
-FASE 06
-
-Cena 02
-
-Macro da porcelana.
-
-Texturas.
-
-Material.
-
-Narrativa.
+Solicitação concluída.
 
 ---
 
-FASE 07
+# FASE 06
 
-Cena 03
+Polish
 
-Montagem da mesa.
+Objetivo:
 
-Pratos.
+Elevar a experiência.
 
-Talheres.
+Entregas:
 
-Guardanapo.
-
-Sousplat.
-
-Taças.
-
----
-
-FASE 08
-
-Cena 04
-
-Mesa completa.
-
-Luz ambiente.
-
-Contemplação.
+* micro animações
+* efeitos de câmera
+* partículas
+* sons
+* responsividade
+* acessibilidade
+* performance
 
 ---
 
-FASE 09
+# FASE 07
 
-Cena 05
+Release
 
-Prepare a próxima experiência.
+Entregas:
 
-Transformação da mesa.
-
-Nova composição.
-
-Nova iluminação.
-
-Nova narrativa.
+* testes
+* correções
+* documentação
+* deploy
+* validação
 
 ---
 
-FASE 10
+# Critérios de Qualidade
 
-Catálogo
+Cada fase somente será considerada concluída quando:
 
-Integração dos produtos.
+✓ Build funcionando
 
-Filtros.
+✓ Lint sem erros
 
-Coleções.
+✓ Responsividade
 
-Detalhes.
+✓ Performance aprovada
 
----
+✓ Revisão de código
 
-FASE 11
+✓ Aprovação funcional
 
-Carrinho
-
-Checkout.
-
-Pagamento.
-
-Frete.
-
-Confirmação.
-
----
-
-FASE 12
-
-Painel Administrativo
-
-Produtos.
-
-Pedidos.
-
-Categorias.
-
-Coleções.
-
-Uploads.
-
----
-
-FASE 13
-
-SEO
-
-Metadata.
-
-Sitemap.
-
-Open Graph.
-
-Schema.
-
-Performance.
-
----
-
-FASE 14
-
-Responsividade
-
-Desktop.
-
-Tablet.
-
-Mobile.
-
-Ajustes.
-
----
-
-FASE 15
-
-Acessibilidade
-
-Motion Reduced.
-
-Contraste.
-
-ARIA.
-
-Keyboard Navigation.
-
----
-
-FASE 16
-
-Otimização
-
-Compressão.
-
-Lazy Loading.
-
-Caching.
-
-Bundle Analysis.
-
----
-
-FASE 17
-
-Testes
-
-Unitários.
-
-Integração.
-
-Visual.
-
-E2E.
-
----
-
-FASE 18
-
-Deploy Final
-
-Produção.
-
-Monitoramento.
-
-Logs.
-
-Analytics.
-
-Backup.
-
----
-
-Critério de Qualidade
-
-Nenhuma fase será iniciada antes da anterior estar aprovada.
-
-Cada entrega deve ser:
-
-Funcional.
-
-Documentada.
-
-Versionada.
-
-Testada.
-
-Revisada.
-
----
-
-Regra Principal
-
-Nunca desenvolver duas funcionalidades grandes ao mesmo tempo.
-
-Uma fase.
-
-Uma entrega.
-
-Uma validação.
-
-Depois avançamos.
+✓ Aprovação visual

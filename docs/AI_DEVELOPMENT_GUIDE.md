@@ -1,271 +1,148 @@
-# AI_DEVELOPMENT_GUIDE.md
+# AI DEVELOPMENT GUIDE
 
-# Project Sirius
+Projeto: Sirius
 
-Versão: 1.0
+Versão: 2.0
 
 ---
 
 # Objetivo
 
-Este documento define como qualquer Inteligência Artificial deverá trabalhar dentro do Project Sirius.
+Este documento define como agentes de IA devem trabalhar no Sirius.
 
-A IA deve agir como um engenheiro de software sênior, respeitando integralmente todos os documentos do projeto.
-
-A prioridade não é velocidade.
-
-A prioridade é excelência.
+Aplica-se ao ChatGPT, Antigravity, Cursor e qualquer outro agente utilizado durante o desenvolvimento.
 
 ---
 
-# Documentos obrigatórios
+# Princípio Fundamental
 
-Antes de implementar qualquer funcionalidade, leia obrigatoriamente:
+Nunca implemente funcionalidades além do escopo solicitado.
 
-PROJECT_VISION.md
+Antes de criar novas funcionalidades, respeite:
 
-BRAND_GUIDELINES.md
+1. documentação oficial;
 
-DESIGN_SYSTEM.md
+2. arquitetura oficial;
 
-EXPERIENCE_SCRIPT.md
-
-TECHNICAL_ARCHITECTURE.md
-
-IMPLEMENTATION_ROADMAP.md
-
-Nunca implementar funcionalidades ignorando estes documentos.
+3. regras de negócio.
 
 ---
 
-# Filosofia
+# Prioridade
 
-Nunca improvise.
+Sempre seguir esta ordem:
 
-Nunca assuma requisitos.
+PROJECT_VISION
 
-Nunca altere comportamento sem autorização.
+↓
 
-Sempre siga exatamente a experiência definida.
+BUSINESS_RULES
 
----
+↓
 
-# Regra número 1
+TECHNICAL_ARCHITECTURE
 
-Implementar apenas aquilo que foi solicitado.
+↓
 
-Nada além.
+DATABASE_ARCHITECTURE
 
-Nunca criar funcionalidades "porque seria interessante".
+↓
 
-Nunca adicionar bibliotecas desnecessárias.
+EXPERIENCE_SCRIPT
 
----
+↓
 
-# Regra número 2
+EXPERIENCE_PRINCIPLES
 
-Nunca modificar arquivos que não fazem parte da tarefa.
+↓
 
-Caso uma alteração seja necessária, justificar primeiro.
-
----
-
-# Regra número 3
-
-Antes de escrever código:
-
-Entender a tarefa.
-
-Planejar.
-
-Listar arquivos envolvidos.
-
-Explicar a estratégia.
-
-Somente depois implementar.
+IMPLEMENTATION_ROADMAP
 
 ---
 
-# Organização
+# Nunca assumir
 
-Cada componente possui responsabilidade única.
+Nunca criar:
 
-Nunca criar componentes gigantes.
+* fluxos novos;
+* componentes novos;
+* regras novas;
+* telas novas;
 
-Objetivo máximo:
-
-200 linhas por componente.
-
-Caso ultrapasse isso, dividir.
-
----
-
-# Estrutura
-
-Separar:
-
-UI
-
-Lógica
-
-Hooks
-
-Services
-
-Types
-
-Utils
-
-Nunca misturar responsabilidades.
+sem que estejam documentados.
 
 ---
 
-# Nomeação
+# Componentes
 
-Componentes
-
-PascalCase
-
-Hooks
-
-camelCase iniciando com use
-
-Funções
-
-camelCase
-
-Constantes
-
-UPPER_CASE
-
-Interfaces
-
-Prefixo I
-
-Tipos
-
-Prefixo T
-
----
-
-# Código
-
-Priorizar legibilidade.
-
-Nunca escrever código "inteligente demais".
-
-Sempre explicar trechos complexos.
-
----
-
-# Comentários
-
-Comentar apenas decisões importantes.
-
-Nunca comentar código óbvio.
-
----
-
-# Clean Code
-
-Funções pequenas.
-
-Componentes pequenos.
+Criar componentes pequenos.
 
 Responsabilidade única.
 
-Sem duplicação.
+Reutilizáveis.
 
-Sem números mágicos.
+Tipados.
 
-Sem código morto.
-
----
-
-# Performance
-
-Lazy Loading.
-
-Dynamic Imports.
-
-Memoização quando necessária.
-
-Nunca otimizar prematuramente.
+Sem lógica de negócio.
 
 ---
 
-# Acessibilidade
+# Regras
 
-Sempre utilizar HTML semântico.
+Toda regra de negócio deve ficar em:
 
-ARIA quando necessário.
+lib/
 
-Keyboard Navigation.
-
-Contraste AA.
-
-Motion Reduced.
+Nunca em componentes visuais.
 
 ---
 
-# Responsividade
+# Three.js
 
-Desktop First.
+O código 3D deve ser modular.
 
-Tablet.
+Separar:
 
-Mobile.
-
-Nunca esconder problemas utilizando display:none.
-
----
-
-# Git
-
-Cada implementação deve representar uma única responsabilidade.
-
-Exemplos:
-
-feat(scene-01)
-
-feat(scroll-engine)
-
-feat(product-card)
-
-fix(animation)
-
-refactor(hero)
+* câmera
+* iluminação
+* ambiente
+* objetos
+* animações
 
 ---
 
-# Antes de finalizar
+# Recommendation Engine
 
-A IA deve responder:
+Não utilizar IA.
 
-O que foi implementado?
-
-Quais arquivos foram alterados?
-
-Existe algum risco?
-
-Existe alguma melhoria futura?
-
-Como testar?
+Baseado apenas em regras.
 
 ---
 
-# Se houver dúvida
+# Commits
 
-Nunca inventar.
+Todo desenvolvimento segue:
 
-Perguntar.
+Implementação
+
+↓
+
+Revisão
+
+↓
+
+Commit
+
+↓
+
+Push
+
+Nunca realizar push sem revisão.
 
 ---
 
 # Objetivo Final
 
-O usuário deve perceber apenas uma coisa:
+Todo código produzido deve contribuir para o mesmo propósito:
 
-Qualidade.
-
-Todo o restante deve ser invisível.
+Entregar a experiência mais elegante, imersiva e memorável do mercado de locação para eventos.
