@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Calendar, ShoppingBag, Sparkles, MessageCircle } from 'lucide-react';
+import { Calendar, ShoppingBag, Sparkles, } from 'lucide-react';
 import { ExperienceTheme } from '@/types/sirius';
 
 interface HeaderProps {
@@ -49,11 +49,10 @@ export function Header({
             <button
               key={theme.id}
               onClick={() => onSelectTheme(theme.id)}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${
-                currentTheme === theme.id
+              className={`px-3.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${currentTheme === theme.id
                   ? 'bg-[#c6a56a] text-black shadow-md font-semibold'
                   : 'text-[#b7b7b2] hover:text-white hover:bg-white/5'
-              }`}
+                }`}
             >
               {theme.label}
             </button>

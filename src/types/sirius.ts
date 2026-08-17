@@ -1,4 +1,4 @@
-export type ProductCategory = 
+export type ProductCategory =
   | 'sousplat'
   | 'prato_principal'
   | 'prato_sobremesa'
@@ -8,7 +8,7 @@ export type ProductCategory =
   | 'talher_colher'
   | 'taca';
 
-export type ExperienceTheme = 
+export type ExperienceTheme =
   | 'minimalista'
   | 'casamento'
   | 'contemporaneo'
@@ -17,6 +17,7 @@ export type ExperienceTheme =
 
 export interface Product {
   id: string;
+  images?: string[];
   name: string;
   category: ProductCategory;
   collection: string;
@@ -83,4 +84,9 @@ export interface QuoteRequestData {
     product: Product;
     quantity: number;
   }[];
+}
+
+export interface CuratedItem {
+  product: Product;
+  quantity: number;
 }

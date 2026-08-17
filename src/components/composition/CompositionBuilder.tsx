@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { TableComposition, ProductCategory, Product, DateRange } from '@/types/sirius';
 import { INITIAL_PRODUCTS } from '@/lib/catalogData';
 import { checkProductAvailability } from '@/lib/reservationEngine';
-import { Check, Sparkles, AlertCircle, Plus, RefreshCw } from 'lucide-react';
+import { Check, AlertCircle, RefreshCw } from 'lucide-react';
 
 interface CompositionBuilderProps {
   composition: TableComposition;
@@ -89,13 +89,12 @@ export function CompositionBuilder({
             <button
               key={tab.id}
               onClick={() => setActiveCategory(tab.id)}
-              className={`whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium flex items-center space-x-2 transition-all ${
-                isActive
+              className={`whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium flex items-center space-x-2 transition-all ${isActive
                   ? 'bg-[#c6a56a] text-black font-semibold shadow-md'
                   : isSelected
-                  ? 'bg-white/15 text-white border border-[#c6a56a]/40'
-                  : 'bg-white/5 text-[#b7b7b2] hover:bg-white/10'
-              }`}
+                    ? 'bg-white/15 text-white border border-[#c6a56a]/40'
+                    : 'bg-white/5 text-[#b7b7b2] hover:bg-white/10'
+                }`}
             >
               <span>{tab.label}</span>
               {isSelected && !isActive && <Check className="w-3 h-3 text-[#c6a56a]" />}
@@ -119,11 +118,10 @@ export function CompositionBuilder({
             <div
               key={product.id}
               onClick={() => availability.isAvailable && handleSelectProduct(product)}
-              className={`relative rounded-2xl p-4 transition-all duration-300 cursor-pointer border ${
-                isSelected
+              className={`relative rounded-2xl p-4 transition-all duration-300 cursor-pointer border ${isSelected
                   ? 'bg-[#1a1b1f] border-[#c6a56a] gold-glow'
                   : 'bg-[#111214]/80 border-white/5 hover:border-white/20'
-              } ${!availability.isAvailable ? 'opacity-50 cursor-not-allowed' : ''}`}
+                } ${!availability.isAvailable ? 'opacity-50 cursor-not-allowed' : ''}`}
             >
               {/* COR DE DESTAQUE / INDICADOR */}
               <div className="flex items-center justify-between mb-3">

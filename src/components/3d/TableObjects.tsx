@@ -6,10 +6,11 @@ import { TableComposition } from '@/types/sirius';
 
 interface TableObjectsProps {
   composition: TableComposition;
-  lightIntensity?: number;
 }
 
-export function TableObjects({ composition, lightIntensity = 1.2 }: TableObjectsProps) {
+export function TableObjects({
+  composition,
+}: TableObjectsProps) {
   const groupRef = useRef<THREE.Group>(null);
 
   return (
